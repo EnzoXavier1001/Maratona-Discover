@@ -22,6 +22,13 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 --- 
 
+## 🎈 Novas características
+
+- Dark Mode
+- Transformação do objeto modal para uma única função usando a função toggle
+
+--- 
+
 ## 📁 Como baixar o projeto
 
 ```bash
