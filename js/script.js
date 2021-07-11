@@ -1,20 +1,10 @@
-const Modal = {
-    open (){
-        // Abrir modal
-        // Adicionar a classe active ao modal
+const Modal = { 
+    openAndClose() {
         document
             .querySelector('.modal-overlay')
             .classList
-            .add('active')
-    },
-    close () {
-        // Fechar o modal
-        // Remover a class active do modal
-        document
-            .querySelector('.modal-overlay')
-            .classList
-            .remove('active')
-    }    
+            .toggle('active')
+    } 
 }
 
 const Storage = {
