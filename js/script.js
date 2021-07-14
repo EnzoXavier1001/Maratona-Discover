@@ -204,7 +204,7 @@ const Form = {
             // apagar os dados do form
             Form.clearFields()
             // modal feche
-            Modal.close()
+            Modal.openAndClose()
         } catch (error) {
             alert(error.message)
         }
